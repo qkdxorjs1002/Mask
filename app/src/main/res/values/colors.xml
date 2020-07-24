@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00bfa5</color>
+    <color name="colorPrimaryDark">#008e76</color>
+    <color name="colorAccent">#5df2d6</color>
+    <color name="colorBackground">#f2f2f2</color>
+    <color name="colorStroke">#d6d6d6</color>
+    <color name="colorHighlight">#4DB6AC</color>
+    <color name="colorButton">#e6e6e6</color>
+    <color name="colorListItemBackground">#fcfcfc</color>
+    <color name="colorText">#000000</color>
+    <color name="colorIcon">#303030</color>
+    <color name="colorTextDisabled">#919191</color>
+    <color name="colorStockPlenty">#00BFA5</color>
+    <color name="colorStockSome">#00C853</color>
+    <color name="colorStockFew">#DD2C00</color>
+    <color name="colorStockEmpty">#37474F</color>
+</resources>

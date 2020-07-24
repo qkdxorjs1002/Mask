@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:foreground="@drawable/frame_round_fg"
+    android:background="@color/colorBackground"
+    android:orientation="vertical"
+    android:fitsSystemWindows="true"
+    tools:context=".ZeroPayFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="12dp"
+        android:foreground="@drawable/frame_round_fg"
+        android:background="@color/colorButton"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/zeroPayChangeType"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="15dp"
+            android:background="@drawable/search_btn_bg"
+            android:button="@null"
+            android:checked="false"
+            android:foreground="@drawable/ic_find_replace"
+            style="?attr/borderlessButtonStyle"/>
+
+        <EditText
+            android:id="@+id/zeroPayInput"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/HINT_ADDRESS"
+            android:inputType="text"
+            android:imeOptions="actionSearch"
+            android:textAppearance="@style/Font.TextButton"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/colorTextDisabled"
+            android:theme="@style/ViewTheme" />
+
+        <Button
+            android:id="@+id/zeroPayClearText"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="20dp"
+            android:foreground="@drawable/ic_clear"
+            android:background="@drawable/search_btn_bg"
+            style="?attr/borderlessButtonStyle"/>
+
+    </LinearLayout>
+
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
+        android:id="@+id/zeroPaySwipeRefresh"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:enabled="false">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/zeroPayList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:foreground="@drawable/frame_round_fg" />
+
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+
+    <LinearLayout
+        android:id="@+id/zeroPayBtnLayout"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="5dp"
+        android:paddingStart="24dp"
+        android:paddingEnd="24dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/zeroPayBtnPrevious"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_bg"
+            android:enabled="false"
+            android:text="@string/BTN_PREVIOUS"
+            android:textAppearance="@style/Font.TextButton" />
+
+        <Button
+            android:id="@+id/zeroPayBtnNext"
+            style="?attr/borderlessButtonStyle"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_round_bg"
+            android:enabled="false"
+            android:text="@string/BTN_NEXT"
+            android:textAppearance="@style/Font.TextButton" />
+
+    </LinearLayout>
+
+</LinearLayout>

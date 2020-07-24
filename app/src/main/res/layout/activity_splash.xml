@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHighlight"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <View
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:background="@drawable/ic_launcher_foreground"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="@style/Font.Description"
+        android:text="@string/CONTRACT_HELP"
+        android:foreground="@drawable/frame_round_border"
+        android:background="@drawable/frame_round_bg"
+        android:paddingTop="12dp"
+        android:paddingBottom="12dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"/>
+
+    <Button
+        android:id="@+id/btnAllowPermissions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_round_light_bg"
+        android:textAppearance="@style/Font.TextButton"
+        android:layout_marginTop="20dp"
+        android:padding="12dp"
+        android:text="@string/ALLOW_LOCATION"
+        android:elevation="0dp"/>
+
+</LinearLayout>
