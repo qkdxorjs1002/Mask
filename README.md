@@ -1,13 +1,15 @@
 # Mask
-공공데이터 포털 OpenAPI를 활용한 공적마스크 및 제로페이 가맹점 현황 앱
-
+### 공공데이터 포털 OpenAPI를 활용한 공적마스크 및 제로페이 가맹점 현황 앱
 ### 공적 마스크 공급 중단으로 사용된 OpenAPI 서비스가 중지되었으며 해당 앱도 사용이 불가능합니다.
 
+<br />
 
-<img src="img1.png" width=300px>
-<img src="img2.png" width=300px>
-<img src="img3.png" width=300px>
-<img src="img4.png" width=300px>
+<img src="img1.png" width=300px> <img src="img2.png" width=300px>
+<img src="img3.png" width=300px> <img src="img4.png" width=300px>
+
+<br />
+
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ----------------------------------------
 
