@@ -12,6 +12,8 @@
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ----------------------------------------
+### Summary
+[Google Drive](https://drive.google.com/drive/folders/1lzgY8Z_JeHg59HWsvg6JgYC80y-zK5ne?usp=sharing)
 
 ## 기능
 
